@@ -1,0 +1,1 @@
+[[i if j<i+1 else j for j in range(n)] for i in range(n)]
