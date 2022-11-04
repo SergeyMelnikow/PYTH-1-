@@ -4,4 +4,4 @@ import matplotlib.pyplot as plt
 
 titanic = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv")
 df=titanic
-print(df.columns)
+print(df['fare'].sum())
